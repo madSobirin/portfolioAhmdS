@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', Courier, monospace;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 50px;
+}
+
+.navbar-logo img {
+  width: 8rem;
+  margin-right: 100px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar-nav a {
+  font-size: 2rem;
+  color: black;
+}
+
+.navbar-close a {
+  margin-left: 80rem;
+}
