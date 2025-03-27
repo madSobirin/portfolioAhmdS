@@ -14,7 +14,7 @@
 }
 
 .navbar-logo img {
-  width: 8rem;
+  width: 4rem;
   margin-right: 100px;
 }
 
@@ -24,10 +24,54 @@
 }
 
 .navbar-nav a {
-  font-size: 2rem;
+  font-size: 1rem;
   color: black;
 }
 
 .navbar-close a {
-  margin-left: 80rem;
+  margin-left: 32rem;
+  color: black;
+}
+
+.navbar-nav a:hover {
+  color: rgb(118, 118, 118);
+  transition: 0.4s;
+}
+
+.navbar-nav a::after {
+  content: '';
+  display: block;
+  border-bottom: 1.4px solid rgb(118, 118, 118);
+  transform: scaleX(0);
+  transition: 0.4s;
+}
+
+.navbar-nav a:hover::after {
+  transform: scaleX(0.4);
+}
+
+.navbar-close a {
+  margin-left: 32rem;
+  color: black;
+  font-size: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-close a:hover {
+  color: rgb(118, 118, 118);
+  transition: 0.4s;
+}
+
+.navbar-close a::after {
+  content: '';
+  display: block;
+  border-bottom: 1.4px solid rgb(118, 118, 118);
+  transform: scaleX(0);
+  width: 100%;
+  transition: 0.4s;
+}
+
+.navbar-close a:hover::after {
+  transform: scaleX(0.4);
 }
